@@ -5,7 +5,7 @@ import os
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 xs = torch.unsqueeze(torch.arange(0.01,1,0.01),dim=1)
-ys = 3*xs+4
+ys = 5*xs+1
 
 
 class Line(nn.Module):
@@ -13,11 +13,9 @@ class Line(nn.Module):
     def __init__(self):
         super().__init__()
         self.fc_layer = nn.Sequential(
-            nn.Linear(1, 20),
-            nn.Linear(20, 64),
-            nn.Linear(64, 128),
-            nn.Linear(128, 64),
-            nn.Linear(64, 1),
+            nn.Linear(1, 32),
+            nn.Linear(32, 64),
+            nn.Linear(64, 1)
         )
     #前向计算
     def forward(self,x):

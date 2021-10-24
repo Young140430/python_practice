@@ -1,6 +1,8 @@
 import torch
 import matplotlib.pyplot as plt
 from torch import nn
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 xs = torch.arange(0.01,1,0.01)
 ys = 3*xs+4 + torch.rand(99)

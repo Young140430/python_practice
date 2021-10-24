@@ -1,6 +1,8 @@
 import torch
 import matplotlib.pyplot as plt
 from torch import nn
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 xs = torch.unsqueeze(torch.arange(0.01,1,0.01),dim=1)
 ys = 3*xs+4
