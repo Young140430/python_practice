@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a0c6cae-55db-4c54-b861-b2a8aa782f85" name="Changes" comment="20211026">
+    <list default="true" id="1a0c6cae-55db-4c54-b861-b2a8aa782f85" name="Changes" comment="20211027">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,28 @@
       <recent name="E:\PycharmProjects\pythonProject1\p20211027" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test1 (1)">
+  <component name="RunManager" selected="Python.modeltest1">
+    <configuration name="modeltest1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/p20211028" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/p20211028/modeltest1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,8 +188,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.modeltest1" />
         <item itemvalue="Python.test1 (1)" />
-        <item itemvalue="Python.test2 (1)" />
         <item itemvalue="Python.test2" />
         <item itemvalue="Python.test1" />
         <item itemvalue="Python.test1 (3)" />
@@ -254,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635240570738</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="20211027">
+      <created>1635327361289</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1635327361289</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,6 +314,7 @@
     <MESSAGE value="20211021" />
     <MESSAGE value="20211025" />
     <MESSAGE value="20211026" />
-    <option name="LAST_COMMIT_MESSAGE" value="20211026" />
+    <MESSAGE value="20211027" />
+    <option name="LAST_COMMIT_MESSAGE" value="20211027" />
   </component>
 </project>
