@@ -1,2 +1,0 @@
-# 参考：https://blog.csdn.net/qq_37901820/article/details/83098143
-print(sum(list(map(lambda x: [1,3,5,7,9,11,13,15,17,19][x]+3, list(filter(lambda x: x % 2 == 0, range(len([1,3,5,7,9,11,13,15,17,19]))))))))
