@@ -4,8 +4,70 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a0c6cae-55db-4c54-b861-b2a8aa782f85" name="Changes" comment="20211027">
+    <list default="true" id="1a0c6cae-55db-4c54-b861-b2a8aa782f85" name="Changes" comment="softmax模型测试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211008/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211008/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211008/test2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211009/test1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211009/test2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211009/test3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211009/test4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211009/test5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211009/test6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题1/adjust_name.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题1/city.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题1/commuting_mode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题1/favourite_number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题1/friends_name.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题1/friends_name2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题1/guests_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题1/person_name.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题1/personalized_message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题1/saying.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题1/saying2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题1/simple_message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题1/simple_messages.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题1/travel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题2/alist_age_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题2/factorial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题2/fibonacci_sequence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题2/fraction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题2/lambda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题2/list_add.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题2/list_duplicate_element.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题2/list_merge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题2/list_sort_by_absolute_value.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题2/list_to_dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题2/monkey_eat_peach.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题2/string_reverse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题2/stu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211010/练习题2/tuple_list_dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211011/练习题2/dict_class.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211011/练习题2/extend.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211011/练习题2/list_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211011/练习题2/set_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211011/练习题2/stu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211012/test1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211014/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211014/numpy1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211014/numpy2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211014/sample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211014/test1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211014/test2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211014/test3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211015/test1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211018/test1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211020/test1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211021/numpy1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211021/test1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211021/torch1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211025/test1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211026/test1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211026/test2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211027/test1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211027/test2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p20211028/modeltest1.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +121,28 @@
       <recent name="E:\PycharmProjects\pythonProject1\p20211027" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.modeltest1">
+  <component name="RunManager" selected="Python.test1 (2)">
+    <configuration name="modeltest1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021.10/p20211028" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021.10/p20211028/modeltest1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="modeltest1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,7 +185,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test1 (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test1 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,32 +193,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/p20211025" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021.10/p20211029" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/p20211025/test1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/p20211026" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/p20211026/test1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021.10/p20211029/test1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test1 (2)" />
+        <item itemvalue="Python.modeltest1 (1)" />
         <item itemvalue="Python.modeltest1" />
         <item itemvalue="Python.test1 (1)" />
         <item itemvalue="Python.test2" />
-        <item itemvalue="Python.test1" />
-        <item itemvalue="Python.test1 (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635327361289</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="softmax模型测试">
+      <created>1635414436812</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1635414436812</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -315,6 +384,7 @@
     <MESSAGE value="20211025" />
     <MESSAGE value="20211026" />
     <MESSAGE value="20211027" />
-    <option name="LAST_COMMIT_MESSAGE" value="20211027" />
+    <MESSAGE value="softmax模型测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="softmax模型测试" />
   </component>
 </project>

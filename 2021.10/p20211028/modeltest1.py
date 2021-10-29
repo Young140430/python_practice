@@ -64,7 +64,7 @@ def show_fashion_mnist(images, labels):
     plt.show()
 '''X,y = [],[]
 #初始化两个列表
-for i in range(5):
+for i in range(10):
 	X.append(mnist_train[i][0])
 	#循环向X列表添加图像
 	y.append(mnist_train[i][1])
