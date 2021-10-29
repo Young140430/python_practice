@@ -1,0 +1,32 @@
+import numpy as np
+a=np.arange(30).reshape(2,3,5)
+print(a)
+b=np.ones((2,3,5),dtype=np.int16)
+print(b)
+print(a+b)
+print(a**2)
+print(10*np.sin(a))
+print(a>20)
+c=np.arange(30).reshape(5,6)
+d=np.arange(30).reshape(6,5)
+print(c)
+print(d)
+print(c@d)
+print(d@c)
+rg=np.random.default_rng(1)
+e=rg.random((5,6))
+f=c+e
+print(f)
+print(f.sum())
+print(f.min())
+print(f.max())
+print(np.exp(c))
+print(np.sqrt(c))
+print(np.exp(d))
+print(np.sqrt(d))
+g=np.arange(10)**3
+print(g)
+g[:9:2]=1000000
+print(g)
+for i in g:
+    print(i**(1/3.))
