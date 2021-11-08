@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("img/3.jpg",0)
+img = cv2.imread("../img/3.jpg",0)
 
 kernel = cv2.getStructuringElement(cv2.MORPH_RECT,(5,5))
 # dst = cv2.dilate(img,kernel)

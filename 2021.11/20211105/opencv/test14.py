@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-src = cv2.imread("img/2.jpg")
+src = cv2.imread("../img/2.jpg")
 
 
 pts1 = np.float32([[25, 30], [179, 25], [12, 188], [189, 190]])

@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("img/4.jpg",0)
+img = cv2.imread("../img/4.jpg",0)
 
 kernel = cv2.getStructuringElement(cv2.MORPH_RECT,(3,3))
 # dst = cv2.morphologyEx(img,cv2.MORPH_OPEN,kernel)

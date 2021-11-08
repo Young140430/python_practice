@@ -1,7 +1,7 @@
 import cv2
 
-img1 = cv2.imread("img/1.jpg")
-img2 = cv2.imread("img/6.jpg")
+img1 = cv2.imread("../img/1.jpg")
+img2 = cv2.imread("../img/6.jpg")
 print(img2.shape)
 
 dst_and = cv2.bitwise_and(img1,img2)

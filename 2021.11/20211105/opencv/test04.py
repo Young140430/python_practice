@@ -1,7 +1,7 @@
 import cv2
 from PIL import Image
 
-img = cv2.imread("img/1.jpg")
+img = cv2.imread("../img/1.jpg")
 # img = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
 # img = Image.fromarray(img)
 # img.show()
