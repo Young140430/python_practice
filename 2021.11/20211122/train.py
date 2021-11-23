@@ -19,7 +19,7 @@ class Trainer:
 
         # 加载测试数据
         self.test_dataset = Cat_Dog_Dataset(root,is_train=False)
-        self.test_loader = DataLoader(self.test_dataset, batch_size=100, shuffle=True)
+        self.test_loader = DataLoader(self.test_dataset, batch_size=102, shuffle=True)
         #创建模型
         self.net = net_v1()
         # #加载预训练参数

@@ -71,25 +71,17 @@ if __name__ == '__main__':
                 train_sum_loss = 0
                 train_sum_acc = 0
                 train_step +=1
-        test_sum_loss = 0
-        test_sum_score = 0
-        score = 0
+        test_score = 0
+        test_loss = 0
         for i,(img,label) in enumerate(test_loader):
             img,label = img.to(DEVICE),label.to(DEVICE)
             img = img.reshape(-1,32*32*3)
             out = net(img)
             label = one_hot(label,10).float()
-            loss = loss_func(out,label)
-            score = torch.mean(torch.eq(torch.argmax(out,dim=1),torch.argmax(label,dim=1)).float())
-            test_sum_score = test_sum_score + score
-            test_sum_loss = test_sum_loss + loss
-            if i % 10 == 0 and i != 0:
-                test_loss = test_sum_loss / 10
-                test_score = test_sum_score / 10
-                summaryWriter.add_scalar("test_score", test_score, test_step)
-                summaryWriter.add_scalar("test_loss", test_loss, test_step)
-                print("test_loss:",test_loss.item())
-                print("test_score:",test_score.item())
-                test_sum_loss = 0
-                test_sum_acc = 0
-                test_step +=1
+            test_loss = loss_func(out,label)
+            test_score = torch.mean(torch.eq(torch.argmax(out,dim=1),torch.argmax(label,dim=1)).float())
+            summaryWriter.add_scalar("test_score", test_score, test_step)
+            summaryWriter.add_scalar("test_loss", test_loss, test_step)
+            print("test_loss:",test_loss.item())
+            print("test_score:",test_score.item())
+            test_step +=1
