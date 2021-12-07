@@ -107,5 +107,5 @@ def soft_nms(boxes, sigma=0.5, threshold1=0.7, threshold2=0.1, method=1):
     return keep
 keep1 = nms(boxes, 0.8)
 keep2 = soft_nms(boxes)
-print(keep1)
-print(keep2)
+print("NMS:",keep1)
+print("Soft-NMS:",keep2)
