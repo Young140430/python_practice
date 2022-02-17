@@ -11,11 +11,11 @@ import traceback
 
 # 正式生成样本
 # 原始数据样本、标签路径
-anno_src = r"F:\label_celeba\label.txt"
-img_dir = r"F:\img_celeba\img_celeba"
+anno_src = r"F:\all_image\all_img.txt"
+img_dir = r"F:\all_image\all_img"
 
 # 样本保存路径
-save_path = r"F:\celeba_1"
+save_path = r"F:\celeba_2"
 
 # 生成不同尺寸的人脸样本，包括人脸（正样本）、非人脸（负样本）、部分人脸
 for face_size in [12,24,48]:

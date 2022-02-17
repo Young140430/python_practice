@@ -240,29 +240,33 @@ class Detector:
 if __name__ == '__main__':
     # 多张图片检测
     font = ImageFont.truetype("font/arial.ttf",size=23)
-    image_path = r"test_images"
+    image_path = r"F:/face_data_test"
     for i in os.listdir(image_path):
         detector = Detector()
         with Image.open(os.path.join(image_path,i)) as im: # 打开图片
             # boxes = detector.detect(im)
             print("----------------------------")
             boxes = detector.detect(im)
+            boxes = utils2.convert_to_square(boxes)
             print("size:",im.size)
-            imDraw = ImageDraw.Draw(im)
-            for box in boxes: # 多个框，没循环一次框一个人脸
+            #imDraw = ImageDraw.Draw(im)
+            j=1
+            for box in boxes: # 多个框，每循环一次框一个人脸
                 x1 = int(box[0])
                 y1 = int(box[1])
                 x2 = int(box[2])
                 y2 = int(box[3])
-
                 print((x1, y1, x2, y2))
-
-                print("conf:",box[4]) # 置信度
-                str1=str(math.floor(box[4]*10**2)/(10**2))
-                imDraw.rectangle((x1, y1, x2, y2), outline='red')
-                imDraw.text((x1, y1),str1,font=font,fill=(255,0,255))
+                img = im.crop((x1, y1, x2, y2))
+                img=img.resize((150,150))
+                img.save("F:/face_data_test1/{0}-{1}.jpg".format(i.split(".")[0],j))
+                j+=1
+                # print("conf:",box[4].cpu().data.numpy()) # 置信度
+                # str1=str(math.floor(box[4]*10**2)/(10**2))
+                # imDraw.rectangle((x1, y1, x2, y2), outline='red')
+                # imDraw.text((x1, y1),str1,font=font,fill=(255,0,255))
                 #im.show() # 每循环一次框一个人脸
-            im.show()
+            #im.show()
             # exit()
 
 

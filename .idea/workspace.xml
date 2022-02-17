@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a0c6cae-55db-4c54-b861-b2a8aa782f85" name="Changes" comment="卷积神经网络的学习">
+    <list default="true" id="1a0c6cae-55db-4c54-b861-b2a8aa782f85" name="Changes" comment="目标检测">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.12/p20211207/xml_to_txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021.12/p20211207/xml_to_txt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.12/p20211209/mtcnn/detect.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021.12/p20211209/mtcnn/detect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.12/p20211209/mtcnn/detect2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021.12/p20211209/mtcnn/detect2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.12/p20211209/mtcnn/gen_celel_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021.12/p20211209/mtcnn/gen_celel_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.12/p20211209/mtcnn/train_pnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021.12/p20211209/mtcnn/train_pnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.12/p20211209/mtcnn/train_rnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021.12/p20211209/mtcnn/train_rnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.12/p20211214/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2021.12/p20211214/test1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,23 +56,24 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2021.12/p20211209/mtcnn/test_images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2022.01/p20220110/yolov3/param" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\PycharmProjects\pythonProject1\2021.12\p20211209\mtcnn\test_images" />
-      <recent name="E:\PycharmProjects\pythonProject1\2021.12\p20211209\font" />
-      <recent name="E:\PycharmProjects\pythonProject1\2021.12\p20211209\mtcnn\param" />
-      <recent name="E:\PycharmProjects\pythonProject1\2021.12\p20211209\mtcnn" />
-      <recent name="E:\PycharmProjects\pythonProject1\2021.12\p20211209" />
+      <recent name="E:\PycharmProjects\pythonProject1\2022.01\p20220110\yolov3\param" />
+      <recent name="E:\PycharmProjects\pythonProject1\2022.01\p20220110\yolov3" />
+      <recent name="E:\PycharmProjects\pythonProject1\2022.01\p20220110\yolov3\yolov3_test2" />
+      <recent name="E:\PycharmProjects\pythonProject1\2022.01\p20220110\yolov3\yolov3_test" />
+      <recent name="E:\PycharmProjects\pythonProject1\2022.01\p20220110" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\PycharmProjects\pythonProject1\2021.12\p20211209\mtcnn" />
       <recent name="E:\PycharmProjects\pythonProject1\p20211027" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.detect">
-    <configuration name="detect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.detector2_1">
+    <configuration name="dataset2_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,11 +81,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021.12/p20211209/mtcnn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022.01/p20220110/yolov3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021.12/p20211209/mtcnn/detect.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022.01/p20220110/yolov3/dataset2_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="detect3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="detector2_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,11 +102,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021.12/p20211209/mtcnn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022.01/p20220110/yolov3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021.12/p20211209/mtcnn/detect3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022.01/p20220110/yolov3/detector2_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="detector4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022.01/p20220110/yolov3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022.01/p20220110/yolov3/detector4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,11 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021.12/p20211214" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022.01/p20220110" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021.12/p20211214/test1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022.01/p20220110/test1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train_onet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="trainer2_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,32 +165,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021.12/p20211209/mtcnn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022.01/p20220110/yolov3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021.12/p20211209/mtcnn/train_onet.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="train_rnet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021.12/p20211209/mtcnn" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021.12/p20211209/mtcnn/train_rnet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022.01/p20220110/yolov3/trainer2_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.detect" />
-        <item itemvalue="Python.detect3" />
+        <item itemvalue="Python.detector2_1" />
+        <item itemvalue="Python.detector4" />
+        <item itemvalue="Python.trainer2_1" />
+        <item itemvalue="Python.dataset2_1" />
         <item itemvalue="Python.test1" />
-        <item itemvalue="Python.train_onet" />
-        <item itemvalue="Python.train_rnet" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637834479722</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="目标检测">
+      <created>1639471358520</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1639471358520</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -353,6 +368,7 @@
     <MESSAGE value="numpy test" />
     <MESSAGE value="pytorch test" />
     <MESSAGE value="卷积神经网络的学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="卷积神经网络的学习" />
+    <MESSAGE value="目标检测" />
+    <option name="LAST_COMMIT_MESSAGE" value="目标检测" />
   </component>
 </project>

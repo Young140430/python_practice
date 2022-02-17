@@ -22,7 +22,7 @@ o_cls = 0.97 #原为0.97
 o_nms = 0.7 #原为0.7
 
 class Detector():
-    def __init__(self, pnet_param="param/pnet.pt", rnet_param="param/rnet.pt", onet_param="param/onet.pt",
+    def __init__(self, pnet_param="param/pnet1.pt", rnet_param="param/rnet1.pt", onet_param="param/onet.pt",
                  isCuda=True):
         self.isCuda=isCuda
         self.pnet=nets.PNet()
