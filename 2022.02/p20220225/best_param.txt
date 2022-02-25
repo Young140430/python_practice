@@ -1,0 +1,14 @@
+Best_param saved successfully£¡--->0.7878223657608032
+Best_param saved successfully£¡--->0.7562789916992188
+Best_param saved successfully£¡--->0.7297540307044983
+Best_param saved successfully£¡--->0.5864463448524475
+Best_param saved successfully£¡--->0.560174286365509
+Best_param saved successfully£¡--->0.5473279356956482
+Best_param saved successfully£¡--->0.5220165252685547
+Best_param saved successfully£¡--->0.49960142374038696
+Best_param saved successfully£¡--->0.39998698234558105
+Best_param saved successfully£¡--->0.38619154691696167
+Best_param saved successfully£¡--->0.30382323265075684
+Best_param saved successfully£¡--->0.28520438075065613
+Best_param saved successfully£¡--->0.28050416707992554
+Best_param saved successfully£¡--->0.25685134530067444
